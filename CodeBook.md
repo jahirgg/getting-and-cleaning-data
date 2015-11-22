@@ -29,39 +29,22 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 <b>
 tBodyAcc-XYZ
-
 tGravityAcc-XYZ
-
 tBodyAccJerk-XYZ
-
 tBodyGyro-XYZ
-
 tBodyGyroJerk-XYZ
-
 tBodyAccMag
-
 tGravityAccMag
-
 tBodyAccJerkMag
-
 tBodyGyroMag
-
 tBodyGyroJerkMag
-
 fBodyAcc-XYZ
-
 fBodyAccJerk-XYZ
-
 fBodyGyro-XYZ
-
 fBodyAccMag
-
 fBodyAccJerkMag
-
 fBodyGyroMag
-
 fBodyGyroJerkMag
-
 </b>
 The set of variables that were estimated from these signals are: 
 
@@ -70,6 +53,7 @@ mean(): Mean value
 std(): Standard deviation
 
 Now, to produce each of our features in our data set, we got the mean and standard deviation of each vector pattern. You will be able fo find the features in the following order:
+
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
 3 tBodyAcc-mean()-Z
