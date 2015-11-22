@@ -16,7 +16,13 @@ To run this code, please follow these steps:
 2. Unzip to the directory of your choice.
 3. Download the run_analysis.R file from this repository into the unzipped folder (e.g. ../UCI HAR Dataset)
 4. Open R or RStudio and set your working directory to the unzipped folder
-5. In R, type the command: <b>source("run_analysis.R")
+5. In R, type the command: <b>source("run_analysis.R")<b>
 
 After doing this, you will be able to use the M and A variables described above.
+
+## What have we done with the data?
+
+This analysis took the information from the Activity Recognition Study and merged the Training and Test datasets into only one data set and extracted only the measures related to the average and standard deviation features. Afterwards, with only this features, we calculated an average for each feature aggregated by subject and activity.
+
+In this sense, with the provided clean data set, you will be able to see the average for each of the subjects (1 to 30) and observe the average of each of the features described by mean and std by activity.
 
