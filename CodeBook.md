@@ -2,9 +2,9 @@
 
 ##Credits
 
-This project uses the data from the <b> Human Activity Recognition Using Smartphones Dataset, Version 1.0 <b>  compiled by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto.
+This project uses the data from the <b> Human Activity Recognition Using Smartphones Dataset, Version 1.0 </b>  compiled by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto.
 
-<b>Contact Information <b>
+<b>Contact Information </b>
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Universit‡ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
@@ -27,7 +27,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-
+<b>
 tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
@@ -45,7 +45,7 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
-
+</b>
 The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
