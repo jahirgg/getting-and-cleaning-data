@@ -52,12 +52,15 @@ fBodyAcc-XYZ
 
 fBodyAccJerk-XYZ
 
-`fBodyGyro-XYZ
+fBodyGyro-XYZ
 
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
-fBodyGyroJerkMag`
+
+fBodyGyroJerkMag
 </b>
 The set of variables that were estimated from these signals are: 
 
@@ -67,12 +70,12 @@ std(): Standard deviation
 
 Now, to produce each of our features in our data set, we got the mean and standard deviation of each vector pattern. You will be able fo find the features in the following order:
 
-1 tBodyAcc-mean()-X
-2 tBodyAcc-mean()-Y
-3 tBodyAcc-mean()-Z
-4 tBodyAcc-std()-X
-5 tBodyAcc-std()-Y
-6 tBodyAcc-std()-Z
+|1 |tBodyAcc-mean()-X|
+|2 |tBodyAcc-mean()-Y|
+|3 |tBodyAcc-mean()-Z|
+|4 |tBodyAcc-std()-X|
+|5 |tBodyAcc-std()-Y|
+|6 |tBodyAcc-std()-Z|
 7 tGravityAcc-mean()-X
 8 tGravityAcc-mean()-Y
 9 tGravityAcc-mean()-Z
