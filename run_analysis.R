@@ -70,4 +70,16 @@ c <- c("subject","activity",colnames(Xm))
 A <- aggregate(M[,2:67],by=list(M$subject,M$activity),mean)
 colnames(A) <- c
 
-
+# Removing unneeded variables
+remove(subject)
+remove(subject_test)
+remove(subject_train)
+remove(X_train)
+remove(X_test)
+remove(X)
+remove(Y_test)
+remove(Y_train)
+remove(Y)
+remove(Xm)
+remove(extract)
+remove(c)
