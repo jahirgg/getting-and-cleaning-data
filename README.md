@@ -16,7 +16,7 @@ To run this code, please follow these steps:
 2. Unzip to the directory of your choice.
 3. Download the run_analysis.R file from this repository into the unzipped folder (e.g. ../UCI HAR Dataset)
 4. Open R or RStudio and set your working directory to the unzipped folder
-5. In R, type the command: <b>source("run_analysis.R")<b>
+5. In R, type the command: <b>source("run_analysis.R")</b>
 
 After doing this, you will be able to use the M and A variables described above.
 
